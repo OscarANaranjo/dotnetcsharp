@@ -3,3 +3,7 @@ C# (.NET Framework) scripts for integrating Momentus CRM with Mailchimp, SendGri
 
 This repository contains C# (.NET Framework) code developed for integrating Momentus CRM with email marketing platforms including Mailchimp, SendGrid, and HubSpot. The scripts automate the ingestion of key campaign KPIs—such as email opens, clicks, bounces, and unsubscribes—into CRM campaigns, enabling teams to easily identify hot leads and track engagement directly from the CRM.
 Excel is used as a flexible staging layer to simplify coding, support non-technical users, and enable seamless exports to Salesforce and Power BI for centralized visibility and executive reporting.
+### `momentus_crm_excel_emailcampaign_kpi_loader_v2.cs`
+- **Purpose**: Load extended email campaign KPIs (opens, clicks, bounces, unsubscribes) from Excel CSV into Momentus CRM
+- **Technologies**: C#, CsvHelper, Ungerboeck SDK
+- **Context**: Used to enrich CRM campaign records with deeper engagement metrics for lead qualification and reporting
